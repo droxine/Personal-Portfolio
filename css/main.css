@@ -1,0 +1,12 @@
+.navigation {
+    background-color: rebeccapurple;
+}
+
+.brand {
+    font-weight: bold;
+    color: white !important; 
+}
+
+.tabs {
+    float: right;
+}
