@@ -7,17 +7,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Great+Vibes" rel="stylesheet">
-    <script src="javasript/main.js"></script>
-    <title>Document</title>
+    <script src="javascript/main.js"></script>
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax-video.min.js"></script>
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js"></script>
+    <title>Stéphane Angeles | Portafolio</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-default navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand brand" href="#">SA</a>
+                    <a class="navbar-brand brand" href="index.html">SA</a>
                 </div>
                 <ul class="nav navbar-nav tabs">
                     <li class="active"><a href="#">Inicio</a></li>
@@ -29,11 +33,56 @@
         </nav>
     </header>
 
-    <div class="container">
-        <h3 id="name">SA: Stéphane Angeles</h3>
-        <p>Programadora JAVA, <span class="font-italic">gamer</span>. Desarrollo Web utilizando HTML5, CSS3, Javascript, JQuery y Bootstrap</p>
+    <div class="presentation hm-white-light jarallax" data-jarallax='{"speed": 0.2}' data-jarallax-video="https://www.youtube.com/watch?v=v2kXT1-ZugQ">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 id="name">SA: Stéphane Angeles</h3>
+                <p>Programadora JAVA, <span class="manualItalic">gamer</span>. Desarrolladora Web en HTML5, Sass, Javascript, JQuery y Bootstrap</p>
+                
+                <div class="row">
+                    <div class="tec col-xs-4">
+                                <span class="label label-default">Tecnologías Front-End</span>
+                                <ul id="tec-list">
+                                    <li><i class="fab fa-html5"></i> HTML5</li>
+                                    <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                                    <li><i class="fab fa-js-square"></i> Javascript</li>
+                                    <li><i class="fab fa-sass"></i> Sass</li>
+                                    <li><i class="fab fa-js-square"></i>JQuery</li>
+                                </ul>
+                    </div>
+            
+                    <div class="tec col-xs-4">
+                                <span class="label label-default">Tecnologías Back-End</span>
+                                <ul id="tec-list-back">
+                                    <li><i class="fas fa-coffee"></i> Java</li>
+                                    <li><i class="fab fa-node"></i> NodeJS (Pronto)</li>
+                                    <li><i class="fab fa-angular"></i> AngularJS (Pronto)</li>
+                                </ul>
+                    </div>
+
+                    <div class="tec col-xs-4">
+                            <span class="label label-default">Control de Versiones</span>
+                            <ul id="tec-list-back">
+                                <li><i class="fas fa-code-branch"></i> SVN</li>
+                                <li><i class="fab fa-git"></i> Git</li>
+                                <li><i class="fab fa-github"></i> GitHub</li>
+                                <li><i class="fab fa-gitlab"></i> GitLab</li>
+                            </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            <div class="col-sm-4">
+                <img src="img/sa-main.jpg" alt="Stéphane Angeles"/>
+            </div>
+        </div>
     </div>
 
+    <div class="container">
+
+    </div>
 
 </body>
 </html>

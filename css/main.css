@@ -3,7 +3,8 @@ body {
   font-size: 2em; }
 
 .navigation {
-  background-color: rebeccapurple; }
+  background-color: #cf99cf;
+  margin-bottom: 2em; }
   .navigation .brand {
     font-weight: bold;
     color: white !important;
@@ -11,11 +12,26 @@ body {
   .navigation .tabs {
     float: right; }
 
-.container {
-  margin-top: 40px; }
-  .container #name {
+.presentation {
+  margin-top: -2em;
+  width: 100%;
+  height: 50%;
+  background-color: lightsteelblue;
+  padding: 4em; }
+  .presentation #name {
     font-family: "Great Vibes", "Dosis", "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 2.8em; }
+  .presentation .manualItalic {
+    font-style: italic; }
+  .presentation .tec {
+    padding: 0.5em; }
+    .presentation .tec #tec-list {
+      margin-top: 0.8em; }
+    .presentation .tec #tec-list-back {
+      margin-top: 0.8em; }
+  .presentation img {
+    border-radius: 15px;
+    width: 50%; }
 
 /*# sourceMappingURL=main.css.map */
