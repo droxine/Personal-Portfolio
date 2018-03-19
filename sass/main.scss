@@ -1,6 +1,7 @@
 //Variables
 $mainColor: rebeccapurple;
 $mainFont: 'Dosis', 'Times New Roman', Times, serif;
+$nameFont: 'Great Vibes', 'Dosis', 'Times New Roman', Times, serif;
 
 //Content
 body {
@@ -10,14 +11,23 @@ body {
 
 .navigation {
     background-color: $mainColor;
+
+    .brand {
+        font-weight: bold;
+        color: white !important; 
+        font-size: 2.5em;
+    }
+    
+    .tabs {
+        float: right;
+    }
 }
 
-.brand {
-    font-weight: bold;
-    color: white !important; 
-    font-size: 2.5em;
-}
-
-.tabs {
-    float: right;
+.container {
+    margin-top: 40px;
+    #name {
+        font-family: $nameFont;
+        font-weight: bold;
+        font-size: 2.8em;
+    }
 }
