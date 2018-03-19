@@ -1,12 +1,16 @@
+body {
+  font-family: "Dosis", "Times New Roman", Times, serif;
+  font-size: 2em; }
+
 .navigation {
-    background-color: rebeccapurple;
-}
+  background-color: rebeccapurple; }
 
 .brand {
-    font-weight: bold;
-    color: white !important; 
-}
+  font-weight: bold;
+  color: white !important;
+  font-size: 2.5em; }
 
 .tabs {
-    float: right;
-}
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */

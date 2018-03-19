@@ -1,0 +1,23 @@
+//Variables
+$mainColor: rebeccapurple;
+$mainFont: 'Dosis', 'Times New Roman', Times, serif;
+
+//Content
+body {
+    font-family: $mainFont;
+    font-size: 2em;
+}
+
+.navigation {
+    background-color: $mainColor;
+}
+
+.brand {
+    font-weight: bold;
+    color: white !important; 
+    font-size: 2.5em;
+}
+
+.tabs {
+    float: right;
+}
