@@ -2,18 +2,24 @@ body {
   font-family: "Dosis", "Times New Roman", Times, serif;
   font-size: 2em; }
 
-.navigation {
-  background-color: #cf99cf;
-  margin-bottom: 2em; }
-  .navigation .brand {
-    font-weight: bold;
-    color: white !important;
-    font-size: 2.5em; }
-  .navigation .tabs {
-    float: right; }
+header {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 1em; }
+  header .navigation {
+    background-color: #cf99cf;
+    margin-bottom: 2em; }
+    header .navigation .brand {
+      font-weight: bold;
+      color: white !important;
+      font-size: 2.5em; }
+    header .navigation .tabs {
+      float: right; }
 
 .presentation {
-  margin-top: -2em;
+  margin-top: 1em;
   width: 100%;
   height: 50%;
   background-color: lightsteelblue;
@@ -38,7 +44,7 @@ body {
   width: 100%;
   margin-top: 1.2em; }
   .container .row .row img {
-    width: 80% !important;
+    width: 90% !important;
     height: 100% !important;
     margin: 0.5em; }
 
