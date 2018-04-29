@@ -34,4 +34,12 @@ body {
     border-radius: 15px;
     width: 50%; }
 
+.container {
+  width: 100%;
+  margin-top: 1.2em; }
+  .container .row .row img {
+    width: 80% !important;
+    height: 100% !important;
+    margin: 0.5em; }
+
 /*# sourceMappingURL=main.css.map */
