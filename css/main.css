@@ -42,4 +42,8 @@ body {
     height: 100% !important;
     margin: 0.5em; }
 
+footer .container {
+  padding: 2em;
+  color: white; }
+
 /*# sourceMappingURL=main.css.map */
